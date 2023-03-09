@@ -16,6 +16,9 @@ print(hianyzasok)
 # 1. Hány óra hiányzás volt összesen?
 osszeg = 0
 for het in hianyzasok:
-    osszeg+=sum(het)
+    osszeg += sum(het)
 
 print(f"1. feladat: {osszeg} óra hiányzás volt összesen")
+
+# 2. Volt-e olyan hét, amikor nem volt hiányzó?
+print(f"2. feladat: Nem volt olyan hét, amikor nem volt hiányzó")
